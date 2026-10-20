@@ -1,0 +1,29 @@
+﻿__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.idea/
+
+# Downloaded dataset (keep data/*.py)
+data/multi30k/
+
+# Trained model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs
+*.log
+ablation_results.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
